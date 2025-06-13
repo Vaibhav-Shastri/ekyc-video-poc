@@ -47,10 +47,10 @@ st.markdown(
 # ── Title & Privacy Note ──
 st.markdown('<div class="neumorphic-card">', unsafe_allow_html=True)
 st.subheader("eKYC - PoC for AI-based Video-Verification")
-st.write("**NOTE**: This PoC does **not** store any personal data (ID information, video recording etc.) beyond this session. All uploads are destroyed when you close your browser.")
+st.write("**NOTE**: This PoC does **not** store any of your personal data (ID information, Video recording etc.) beyond this session. All uploads are destroyed when you close your browser.")
 st.info("""
 **PoC Usage Notice**  
-• This demo is currently optimised for desktop or laptop with a webcam and modern browser (recommended Chrome or Firefox).  
+• This demo is currently optimised only for desktop or laptop with a webcam and modern browser (recommended Chrome or Firefox).  
 • Mobile devices are not supported at this stage.  Future mobile-PWA support can be added based on user demand.  
 • For Protiviti internal testing only.
 """)
