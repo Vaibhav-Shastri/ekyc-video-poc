@@ -46,7 +46,9 @@ st.markdown(
 
 # ── Title & Privacy Note ──
 st.markdown('<div class="neumorphic-card">', unsafe_allow_html=True)
-st.title("🛡️ eKYC Video-Verification PoC")
+st.title("AI/ Computer Vision-based eKYC Video-Verification - PoC")
+st.write("--> This PoC does **not** store any personal data beyond your session. \n\n  All uploads are destroyed when you close your browser.")
+st.write("This PoC is intended for Protiviti Internal Testing.")
 st.write("🔒 This PoC does **not** store any personal data beyond your session. All uploads are destroyed when you close your browser.")
 st.markdown('</div>', unsafe_allow_html=True)
 
