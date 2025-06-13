@@ -46,8 +46,8 @@ st.markdown(
 
 # ── Title & Privacy Note ──
 st.markdown('<div class="neumorphic-card">', unsafe_allow_html=True)
-st.title("eKYC - PoC for AI/ Computer Vision-based Video-Verification")
-st.write("**NOTE**: This PoC does **not** store any personal data beyond your session. All uploads are destroyed when you close your browser.")
+st.header("eKYC - PoC for AI/ Computer Vision-based Video-Verification")
+st.write("**NOTE**: This PoC does **not** store any personal data (ID information, video recording etc.) beyond this session. All uploads are destroyed when you close your browser.")
 st.info("""
 **PoC Usage Notice**  
 • This demo is currently optimised for desktop or laptop with a webcam and modern browser (recommended Chrome or Firefox).  
