@@ -15,12 +15,12 @@ st.markdown(
     .stApp {
       background: #e0e5ec;
       color: #333;
-      font-family: "Segoe UI", Roboto, sans-serif;
+      font-family: Aptos, Calibri, sans-serif;
     }
     /* Neumorphic card style */
     .neumorphic-card {
       background: #e0e5ec;
-      border-radius: 16px;
+      border-radius: 6px;
       box-shadow: 8px 8px 16px #a3b1c6, -8px -8px 16px #ffffff;
       padding: 1.5rem;
       margin-bottom: 1.5rem;
