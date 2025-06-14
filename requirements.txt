@@ -1,8 +1,7 @@
 streamlit
-streamlit-webrtc
 opencv-python-headless
 pytesseract
 pdfplumber
 pillow
 deepface
-tensorflow
+streamlit-webrtc
