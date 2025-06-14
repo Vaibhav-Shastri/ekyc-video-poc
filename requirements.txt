@@ -3,6 +3,5 @@ opencv-python-headless==4.8.0.74
 pytesseract==0.3.10
 pdfplumber==0.10.2
 Pillow==9.5.0
-deepface==0.0.79
 streamlit-webrtc==0.45.2
 numpy==1.24.4
