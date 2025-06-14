@@ -11,6 +11,16 @@ import cv2
 import numpy as np
 import pytesseract
 import pdfplumber
+
+import subprocess
+import sys
+
+try:
+    from deepface import DeepFace
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "deepface==0.0.79"])
+    from deepface import DeepFace
+
 from deepface import DeepFace
 
 st.set_page_config(page_title="eKYC Video PoC", layout="centered")
