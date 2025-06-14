@@ -1,7 +1,9 @@
-streamlit
-opencv-python-headless
-pytesseract
-pdfplumber
-pillow
-deepface
-streamlit-webrtc
+streamlit==1.35.0
+opencv-python-headless==4.9.0.80
+pytesseract==0.3.10
+pdfplumber==0.10.2
+Pillow==10.3.0
+deepface==0.0.83
+streamlit-webrtc==0.45.2
+numpy==1.24.4
+tensorflow==2.15.0
